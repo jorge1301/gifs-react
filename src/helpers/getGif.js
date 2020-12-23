@@ -1,4 +1,4 @@
-const url = 'http://api.giphy.com/v1/gifs/search?q=';
+const url = 'https://api.giphy.com/v1/gifs/search?q=';
 const apiKey = 'aP9KC4N0FZ1oFQC7fdzm6IX5nIrBA7XN';
 
 const obtenerGifs = async (busqueda) => {

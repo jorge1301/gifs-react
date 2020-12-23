@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 60px;
+}
+
+.titulo {
+  margin: 30px 20px;
+}
+
+.buscador {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 80%;
+}
+
+.containerFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  display: block;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border: 2px solid steelblue;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 5px 0;
+  background-color: cyan;
+  box-shadow: 5px 4px 16px -3px rgba(0, 0, 0, 0.945);
+}
+
+.imagen-gif {
+  width: 200px;
+  height: 200px;
+}
